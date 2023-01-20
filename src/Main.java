@@ -22,15 +22,15 @@ public class Main {
         }
         System.out.println();
         for (int i = 0; i < 12; i++) {
-            System.out.print(weights[i] + " ");
+            System.out.print(weights[i] + ", ");
         }
         System.out.println();
         for (int i = 0; i < 12; i++) {
-            System.out.print(a[i] + " ");
+            System.out.print(a[i] + ", ");
         }
         System.out.println();
         for (int i = 0; i < 7; i++) {
-            System.out.print(beauty[i] + " ");
+            System.out.print(beauty[i] + ", ");
         }
 
     }
