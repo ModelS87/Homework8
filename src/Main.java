@@ -22,16 +22,31 @@ public class Main {
         }
         System.out.println();
         for (int i = 0; i < 12; i++) {
+            if (i== weights.length - 1) {
+                System.out.println(weights[i]);
+                break;
+            }
             System.out.print(weights[i] + ", ");
         }
+
         System.out.println();
         for (int i = 0; i < 12; i++) {
+            if (i== a.length-1){
+                System.out.println(a[i]);
+                break;
+            }
             System.out.print(a[i] + ", ");
         }
         System.out.println();
         for (int i = 0; i < 7; i++) {
+            if (i== beauty.length-1) {
+                System.out.println(beauty[i]);
+                break;
+            }
             System.out.print(beauty[i] + ", ");
         }
+        System.out.println();
 
+        }
     }
-}
+
